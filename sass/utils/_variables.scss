@@ -1,0 +1,25 @@
+$--main-text-cl: #757575;
+$--title-cl: #212121;
+$--accent-cl: #2196f3;
+$--accent-dark: #000000;
+
+$--dark-bg: #2f303a;
+$--light-bg: #f5f4fa;
+$--white-bg: #ffffff;
+
+$--main-font: "Roboto", sans-serif;
+$--logo-font: "Raleway", sans-serif;
+
+@mixin transition($property) {
+  transition-property: $property;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@mixin default_li {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
