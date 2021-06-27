@@ -136,15 +136,8 @@
       ),
       url("../images/img (16).jpg");
     max-width: 1600px;
-    margin: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    outline: 1px solid black;
-    text-align: center;
-    color: #fff;
-    padding: 200px 0 200px 0;
-    height: 600px;
+
+    max-height: 600px;
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -155,15 +148,7 @@
         ),
         url("../images/hero-desktop@2x.jpg");
       max-width: 1600px;
-      margin: auto;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      outline: 1px solid black;
-      text-align: center;
-      color: #fff;
-      padding: 200px 0 200px 0;
-      height: 600px;
+      max-height: 600px;
     }
   }
 }
