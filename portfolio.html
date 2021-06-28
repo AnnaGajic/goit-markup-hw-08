@@ -28,12 +28,12 @@
           >
           <ul class="navigation__list navigation__list--logo">
             <li class="navigation__item">
-              <a class="navigation__link" href="./index.html"
-                >Студия</a
-              >
+              <a class="navigation__link" href="./index.html">Студия</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link navigation__link--current" href="#">Портфолио</a>
+              <a class="navigation__link navigation__link--current" href="#"
+                >Портфолио</a
+              >
             </li>
             <li class="navigation__item">
               <a class="navigation__link" href="">Контакты</a>
@@ -75,35 +75,37 @@
             </svg>
           </button>
           <ul class="mobile-menu__list">
-                <li class="mobile-menu__item">
-                  <a class="mobile-menu__link " href="./index.html"
-                    >Студия</a
-                  >
-                </li>
-                <li class="mobile-menu__item">
-                  <a class="mobile-menu__link mobile-menu__link--current" href="#">Портфолио</a>
-                </li>
-                <li class="mobile-menu__item">
-                  <a class="mobile-menu__link" href="">Контакты</a>
-                </li>
-              </ul>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="./index.html">Студия</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link mobile-menu__link--current" href="#"
+                >Портфолио</a
+              >
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link" href="">Контакты</a>
+            </li>
+          </ul>
 
-            <div class="mobile-menu__contact">+38 096 111 11 11</div>
-            <div class="mobile-menu__email">info@devstudio.com</div>
-            <ul class="mobile-menu__list-row">
-              <li class="mobile-menu__item-row">
-                <a class="mobile-menu__link-row mobile-menu__link--current">Instagram</a>
-              </li>
-              <li class="mobile-menu__item-row">
-                <a class="mobile-menu__link-row">Twitter</a>
-              </li>
-              <li class="mobile-menu__item-row">
-                <a class="mobile-menu__link-row">Facebook</a>
-              </li>
-              <li class="mobile-menu__item-row">
-                <a class="mobile-menu__link-row">LinkedIn</a>
-              </li>
-            </ul>
+          <div class="mobile-menu__contact">+38 096 111 11 11</div>
+          <div class="mobile-menu__email">info@devstudio.com</div>
+          <ul class="mobile-menu__list-row">
+            <li class="mobile-menu__item-row">
+              <a class="mobile-menu__link-row mobile-menu__link--current"
+                >Instagram</a
+              >
+            </li>
+            <li class="mobile-menu__item-row">
+              <a class="mobile-menu__link-row">Twitter</a>
+            </li>
+            <li class="mobile-menu__item-row">
+              <a class="mobile-menu__link-row">Facebook</a>
+            </li>
+            <li class="mobile-menu__item-row">
+              <a class="mobile-menu__link-row">LinkedIn</a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -139,10 +141,27 @@
               <li class="cards__item">
                 <a class="cards__link" href="">
                   <div class="cards__overlay">
-                    <picture> 
-                      <source srcset="./images/card-tablet-1@1x.jpg 1x, ./images/card-tablet-1@2x.jpg 2x" media="(min-width: 768px) and (max-width:1200px)">
-                      <source srcset="./images/card-mobile-9@1x.jpg 1x, ./images/card-mobile-9@2x.jpg 2x" media="(max-width: 767px)">
-                        <img width="100%" src="./images/img6.jpg" alt="poster" />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/card-tablet-1@1x.jpg 1x,
+                          ./images/card-tablet-1@2x.jpg 2x
+                        "
+                        media="(min-width: 768px) and (max-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/card-mobile-9@1x.jpg 1x,
+                          ./images/card-mobile-9@2x.jpg 2x
+                        "
+                        media="(max-width: 767px)"
+                      />
+                      <img
+                        class="cards__image"
+                        width="100%"
+                        src="./images/img6.jpg"
+                        alt="poster"
+                      />
                     </picture>
                     <div class="cards__backdrop">
                       <p>
@@ -162,10 +181,27 @@
               <li class="cards__item">
                 <a class="cards__link" href="">
                   <div class="cards__overlay">
-                    <picture> 
-                      <source srcset="./images/card-tablet-2@1x.jpg 1x, ./images/card-tablet-2@2x.jpg 2x" media="(min-width: 768px) and (max-width:1200px)">
-                      <source srcset="./images/card-mobile-1@1x.jpg 1x, ./images/card-mobile-1@2x.jpg 2x" media="(max-width: 767px)">
-                      <img width="100%" src="./images/img7.jpg" alt="poster" />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/card-tablet-2@1x.jpg 1x,
+                          ./images/card-tablet-2@2x.jpg 2x
+                        "
+                        media="(min-width: 768px) and (max-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/card-mobile-1@1x.jpg 1x,
+                          ./images/card-mobile-1@2x.jpg 2x
+                        "
+                        media="(max-width: 767px)"
+                      />
+                      <img
+                        class="cards__image"
+                        width="100%"
+                        src="./images/img7.jpg"
+                        alt="poster"
+                      />
                     </picture>
                     <div class="cards__backdrop">
                       <p>
@@ -187,10 +223,27 @@
               <li class="cards__item">
                 <a class="cards__link" href="">
                   <div class="cards__overlay">
-                    <picture> 
-                      <source srcset="./images/card-tablet-3@1x.jpg 1x, ./images/card-tablet-3@2x.jpg 2x" media="(min-width: 768px) and (max-width:1200px)">
-                      <source srcset="./images/card-mobile-2@1x.jpg 1x, ./images/card-mobile-2@2x.jpg 2x" media="(max-width: 767px)">
-                      <img width="100%" src="./images/img8.jpg" alt="restaurant"/>
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/card-tablet-3@1x.jpg 1x,
+                          ./images/card-tablet-3@2x.jpg 2x
+                        "
+                        media="(min-width: 768px) and (max-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/card-mobile-2@1x.jpg 1x,
+                          ./images/card-mobile-2@2x.jpg 2x
+                        "
+                        media="(max-width: 767px)"
+                      />
+                      <img
+                        class="cards__image"
+                        width="100%"
+                        src="./images/img8.jpg"
+                        alt="restaurant"
+                      />
                     </picture>
                     <div class="cards__backdrop">
                       <p>
@@ -210,10 +263,27 @@
               <li class="cards__item">
                 <a class="cards__link" href="">
                   <div class="cards__overlay">
-                    <picture> 
-                      <source srcset="./images/card-tablet-4@1x.jpg 1x, ./images/card-tablet-4@2x.jpg 2x" media="(min-width: 768px) and (max-width:1200px)">
-                      <source srcset="./images/card-mobile-3@1x.jpg 1x, ./images/card-mobile-3@2x.jpg 2x" media="(max-width: 767px)">
-                      <img width="100%" src="./images/img9.jpg" alt="project" />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/card-tablet-4@1x.jpg 1x,
+                          ./images/card-tablet-4@2x.jpg 2x
+                        "
+                        media="(min-width: 768px) and (max-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/card-mobile-3@1x.jpg 1x,
+                          ./images/card-mobile-3@2x.jpg 2x
+                        "
+                        media="(max-width: 767px)"
+                      />
+                      <img
+                        class="cards__image"
+                        width="100%"
+                        src="./images/img9.jpg"
+                        alt="project"
+                      />
                     </picture>
                     <div class="cards__backdrop">
                       <p>
@@ -233,10 +303,27 @@
               <li class="cards__item">
                 <a class="cards__link" href="">
                   <div class="cards__overlay">
-                    <picture> 
-                      <source srcset="./images/card-tablet-5@1x.jpg 1x, ./images/card-tablet-5@2x.jpg 2x" media="(min-width: 768px) and (max-width:1200px)">
-                      <source srcset="./images/card-mobile-4@1x.jpg 1x, ./images/card-mobile-4@2x.jpg 2x" media="(max-width: 767px)">
-                      <img width="100%" src="./images/img10.jpg" alt="application"/>
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/card-tablet-5@1x.jpg 1x,
+                          ./images/card-tablet-5@2x.jpg 2x
+                        "
+                        media="(min-width: 768px) and (max-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/card-mobile-4@1x.jpg 1x,
+                          ./images/card-mobile-4@2x.jpg 2x
+                        "
+                        media="(max-width: 767px)"
+                      />
+                      <img
+                        class="cards__image"
+                        width="100%"
+                        src="./images/img10.jpg"
+                        alt="application"
+                      />
                     </picture>
                     <div class="cards__backdrop">
                       <p>
@@ -256,10 +343,27 @@
               <li class="cards__item">
                 <a class="cards__link" href="">
                   <div class="cards__overlay">
-                    <picture> 
-                      <source srcset="./images/card-tablet-6@1x.jpg 1x, ./images/card-tablet-6@2x.jpg 2x" media="(min-width: 768px) and (max-width:1200px)">
-                      <source srcset="./images/card-mobile-5@1x.jpg 1x, ./images/card-mobile-5@2x.jpg 2x" media="(max-width: 767px)">
-                        <img width="100%" src="./images/img11.jpg" alt="website" />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/card-tablet-6@1x.jpg 1x,
+                          ./images/card-tablet-6@2x.jpg 2x
+                        "
+                        media="(min-width: 768px) and (max-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/card-mobile-5@1x.jpg 1x,
+                          ./images/card-mobile-5@2x.jpg 2x
+                        "
+                        media="(max-width: 767px)"
+                      />
+                      <img
+                        class="cards__image"
+                        width="100%"
+                        src="./images/img11.jpg"
+                        alt="website"
+                      />
                     </picture>
                     <div class="cards__backdrop">
                       <p>
@@ -279,10 +383,27 @@
               <li class="cards__item">
                 <a class="cards__link" href="">
                   <div class="cards__overlay">
-                    <picture> 
-                      <source srcset="./images/card-tablet-7@1x.jpg 1x, ./images/card-tablet-7@2x.jpg 2x" media="(min-width: 768px) and (max-width:1200px)">
-                      <source srcset="./images/card-mobile-6@1x.jpg 1x, ./images/card-mobile-6@2x.jpg 2x" media="(max-width: 767px)">
-                        <img width="100%" src="./images/img12.jpg" alt="design" />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/card-tablet-7@1x.jpg 1x,
+                          ./images/card-tablet-7@2x.jpg 2x
+                        "
+                        media="(min-width: 768px) and (max-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/card-mobile-6@1x.jpg 1x,
+                          ./images/card-mobile-6@2x.jpg 2x
+                        "
+                        media="(max-width: 767px)"
+                      />
+                      <img
+                        class="cards__image"
+                        width="100%"
+                        src="./images/img12.jpg"
+                        alt="design"
+                      />
                     </picture>
                     <div class="cards__backdrop">
                       <p>
@@ -302,10 +423,26 @@
               <li class="cards__item">
                 <a class="cards__link" href="">
                   <div class="cards__overlay">
-                    <picture> 
-                      <source srcset="./images/card-tablet-8@1x.jpg 1x, ./images/card-tablet-8@2x.jpg 2x" media="(min-width: 768px) and (max-width:1200px)">
-                      <source srcset="./images/card-mobile-7@1x.jpg 1x, ./images/card-mobile-7@2x.jpg 2x" media="(max-width: 767px)">
-                        <img width="100%" src="./images/img13.jpg" alt="Marketing"/>
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/card-tablet-8@1x.jpg 1x,
+                          ./images/card-tablet-8@2x.jpg 2x
+                        "
+                        media="(min-width: 768px) and (max-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/card-mobile-7@1x.jpg 1x,
+                          ./images/card-mobile-7@2x.jpg 2x
+                        "
+                        media="(max-width: 767px)"
+                      />
+                      <img
+                        width="100%"
+                        src="./images/img13.jpg"
+                        alt="Marketing"
+                      />
                     </picture>
                     <div class="cards__backdrop">
                       <p>
@@ -325,10 +462,27 @@
               <li class="cards__item">
                 <a class="cards__link" href="">
                   <div class="cards__overlay">
-                    <picture> 
-                      <source srcset="./images/card-tablet-9@1x.jpg 1x, ./images/card-tablet-9@2x.jpg 2x" media="(min-width: 768px) and (max-width:1200px)">
-                      <source srcset="./images/card-mobile-8@1x.jpg 1x, ./images/card-mobile-8@2x.jpg 2x" media="(max-width: 767px)">
-                        <img width="100%" src="./images/img14.jpg" alt="restaurant-logo" />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/card-tablet-9@1x.jpg 1x,
+                          ./images/card-tablet-9@2x.jpg 2x
+                        "
+                        media="(min-width: 768px) and (max-width:1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/card-mobile-8@1x.jpg 1x,
+                          ./images/card-mobile-8@2x.jpg 2x
+                        "
+                        media="(max-width: 767px)"
+                      />
+                      <img
+                        class="cards__image"
+                        width="100%"
+                        src="./images/img14.jpg"
+                        alt="restaurant-logo"
+                      />
                     </picture>
                     <div class="cards__backdrop">
                       <p>
@@ -428,8 +582,6 @@
       </div>
     </footer>
 
-    
     <script src="./js/menu.js"></script>
-
   </body>
 </html>

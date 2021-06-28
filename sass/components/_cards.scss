@@ -154,7 +154,6 @@
   border-bottom: solid 1px;
   flex-direction: column;
   border: 1px solid #eeeeee;
-  
 
   &:not(:last-child) {
     margin-bottom: 30px;
@@ -237,10 +236,9 @@
   margin: 0 0 40px 0;
   padding: 0;
 
-  & li{
+  & li {
     padding-bottom: 15px;
   }
-
 }
 
 .cards__button {
@@ -268,8 +266,13 @@
   }
 }
 
+.cards__image {
+  max-width: 480px;
+  display: block;
+  margin: auto;
+}
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .cards__filter-list {
     display: flex;
     list-style: none;
@@ -278,8 +281,8 @@
     // width: 100%;
     flex-basis: 100%;
     justify-content: center;
-  
-    & li{
+
+    & li {
       padding-bottom: 0;
     }
   }
@@ -290,27 +293,31 @@
     flex-basis: calc((100% - 30px) / 2);
     margin-bottom: 30px;
 
-    &:nth-child(2n+0){
+    &:nth-child(2n + 0) {
       margin-left: 30px;
     }
-
   }
-
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
+  .cards {
+    padding: 94px 0 94px 0;
+  }
   .cards__item {
     display: flex;
     flex-direction: column;
     margin: 0 30px 30px 0;
     flex-basis: calc((100% - 60px) / 3);
 
-    &:nth-child(2n+0){
+    &:nth-child(2n + 0) {
       margin-left: 0;
     }
 
     &:nth-child(3n + 3) {
       margin-right: 0;
+    }
+    &:nth-child(n + 7) {
+      margin-bottom: 0;
     }
   }
 }
