@@ -236,8 +236,8 @@
   margin: 0 0 40px 0;
   padding: 0;
 
-  & li {
-    padding-bottom: 15px;
+  & li:nth-child(-n + 3) {
+    margin-bottom: 15px;
   }
 }
 
@@ -282,8 +282,8 @@
     flex-basis: 100%;
     justify-content: center;
 
-    & li {
-      padding-bottom: 0;
+    & li:nth-child(-n + 3) {
+      margin-bottom: 0;
     }
   }
 
